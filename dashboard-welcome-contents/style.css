@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'TTCommons-bold';
+    src: url('./fonts/TTCommons-Bold.eot');
+    src: url('./fonts/TTCommons-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTCommons-Bold.woff2') format('woff2'),
+        url('./fonts/TTCommons-Bold.woff') format('woff'),
+        url('./fonts/TTCommons-Bold.ttf') format('truetype'),
+        url('./fonts/TTCommons-Bold.svg#TTCommons-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    /*font-display: swap;*/
+}
+
+@font-face {
+    font-family: 'TTCommons-medium';
+    src: url('./fonts/TTCommons-Medium.eot');
+    src: url('./fonts/TTCommons-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTCommons-Medium.woff2') format('woff2'),
+        url('./fonts/TTCommons-Medium.woff') format('woff'),
+        url('./fonts/TTCommons-Medium.ttf') format('truetype'),
+        url('./fonts/TTCommons-Medium.svg#TTCommons-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    /*font-display: swap;*/
+}
+
+.welcome-panel-content {
+	padding: 30px 0;
+}
+.welcome-panel::before,
+.welcome-panel-header,
+.welcome-panel-content > h2{
+	display: none;
+}
+.welcome-panel .welcome-panel-column-container{
+	background: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+    display: flex !important;
+}
+@media only screen and (min-width: 2000px){
+    .welcome-panel .welcome-panel-column-container{
+        margin: 0 auto !important;
+        max-width: 1150px;
+    }
+}
+#welcome-panel {
+	background: #1d2945 !important;
+}
+
+#dashboard-widgets-wrap{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#custom-welcome-screen .custom-welcome-header h3{
+	font-family: "TTCommons-bold", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+	text-align: center;
+	font-size: 48px;
+	line-height: 55px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.welcome-panel-close {display:none;}
+.custom-welcome-header h1{
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 6px;
+	font-family: "TTCommons-bold", sans-serif;
+}
+
+.custom-welcome-header img{
+	display: block;
+	margin: 16px auto;
+    max-height: 75px;
+}
+
+.task-button-panel{
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-flow: row wrap;
+	margin-bottom: 15px;
+}
+
+.task-button-panel ul.task-buttons{
+	width: auto;
+}
+
+.task-button-panel ul.task-buttons li{
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.task-button-panel ul.task-buttons{
+	margin: 0;
+	text-align: center;
+}
+
+.custom-welcome-body .task-label{
+	font-size: 26px;
+	line-height: 1;
+	margin: 0;
+	color: #fff;
+	width: 150px;
+	padding-right: 45px;
+	text-align: right;
+	font-family: "TTCommons-bold", sans-serif;
+}
+
+#custom-welcome-screen hr{
+    height: 0px;
+    background: none;
+    border-top: 1px solid #161f35;
+    border-bottom: 1px solid #161f35;
+    margin: 45px 0 55px;
+}
+
+#custom-welcome-screen .custom-welcome-footer {
+	margin-top: 15px;
+	margin-bottom: 25px;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+
+#custom-welcome-screen .custom-welcome-footer a{
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+
+.task-button a:link,
+.task-button a:visited{
+	display: block;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    font-family: "TTCommons-bold", sans-serif;
+    font-weight: 700;  
+    color: #fff;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+	background: #00b2e2;
+	border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+}
+
+.task-button a:hover,
+.task-button a:active,
+.task-button a:focus{
+    background: #fff;
+    color: #00b2e2;
+	text-decoration: none;
+    outline: none;
+}
+
+.admin .task-button a:link,
+.admin .task-button a:visited{
+	background: #161f35;
+}
+.admin .task-button a:hover,
+.admin .task-button a:active,
+.admin .task-button a:focus{
+    background: #fff;
+    color: #161f35;
+}
+
+.commercial .task-button a:link,
+.commercial .task-button a:visited{
+	background: #ff9e1a;
+}
+.commercial .task-button a:hover,
+.commercial .task-button a:active,
+.commercial .task-button a:focus{
+    background: #fff;
+    color: #ff9e1a;
+}
+
+.benefits .task-button a:link,
+.benefits .task-button a:visited{
+	background: #f5333f;
+}
+.benefits .task-button a:hover,
+.benefits .task-button a:active,
+.benefits .task-button a:focus{
+    background: #fff;
+    color: #f5333f;
+}
+
